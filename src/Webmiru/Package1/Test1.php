@@ -1,6 +1,6 @@
 <?php
 
-namespace League\Skeleton;
+namespace Webmiru\Package1;
 
 class Test1
 {
@@ -19,8 +19,8 @@ class Test1
      *
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase($phrase)
+    public function func1($msg)
     {
-        return $phrase;
+        return $msg;
     }
 }
